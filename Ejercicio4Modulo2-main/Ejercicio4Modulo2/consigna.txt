@@ -1,0 +1,33 @@
+﻿
+# Ventas mensuales
+
+
+
+|Posicion	 |	Nombre del Campo	| Tipo de dato  |
+|------------|----------------------|------------   |
+|    1 		 | Fecha del informe    | Fecha (10)    |
+|	 11	     | Codigo del vendedor  | varchar (3)   |
+|    14      | Venta                | numerico(11)  |
+|    25      |Venta a empresa grande| varchar(1) => Flag / mapearlo como true o false |
+
+
+1. Correr el Script y va a generar las siguientes tablas:
+    * ventas_mensuales => Guardar los datos mapeados y que hayan superado todas las validaciones
+    * parametria => Hay un registro el cual se debe recuperar su valor para poder aplicar una validacion
+    * rechazos => Se debe insertar aquellos registros que no superaron las validaciones indicando unicamente todos los errores
+
+2. Leer el archivo, parsear a objetos. Puede que el archivo informe mal algun dato asi que deben implementar las validaciones correspondientes:
+   * Siempre debe venir un codigo de vendedor. Si no viene se rechaza el registro
+   * La fecha del informe debe ser igual a la fecha que se inserto en la tabla de parametria, si no es asi rechazar el registro
+   * El flag "Venta a empresa grande" tiene solo dos valores posibles "S" o "N" cualquier otro dato es incorrecto y se rechaza
+3. Insertar los registros validados correctamente en ventas_mensuales 
+4. Insertar los registros con error, especificando cual es el error y como vino el valor originalmente(la linea completa)
+5. Listar todos los vendedores que hayan superado los 100.000 en el mes. Ejemplo: "El vendedor 001 vendio 250.000" 
+6. Listar todos los vendedores que NO hayan superado los 100.000 en el mes. Ejemplo: "El vendedor 001 vendio 90.000" 
+7. Listar todos los vendedores que haya  vendido al menos una vez a una empresa grande. Solo listar los codigos de vendedor
+8. Listar rechazos
+
+```
+ Nota:
+    Las ventas son 11 caracteres, 8 para los enteros, 1 caracter para el separador de decimal y 2 para los decimales
+```

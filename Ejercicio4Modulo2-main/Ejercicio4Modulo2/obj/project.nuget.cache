@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "O2SZSnaOValVNpRkV6CnswYL0NwNtjhQTmIa7QifYR8868wK4XAN+S+eS/plT7s65pPz/DZd4x2r95WdBo4V6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sbru\\Downloads\\Ejercicio4Modulo2-main\\Ejercicio4Modulo2\\Ejercicio4Modulo2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sbru\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\sbru\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\sbru\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\sbru\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
